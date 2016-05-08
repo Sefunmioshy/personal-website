@@ -7,6 +7,47 @@
 body{
   font-family: myFirstFont !important;
 }
+
+#proceed{
+  
+}
+
+#nav_bar{
+  position:fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+  background-color: rgba(33,42,44, 0.85);
+}
+
+#nav_bar ul{
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav_bar ul li {
+  display: inline-block;
+  height: 100%;
+  width: 18%;
+  cursor: pointer;
+}
+
+#nav_bar ul li a {
+  display: inline-block;
+  line-height: 50px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  font-weight: 600;
+}
+
    .contact{
     overflow: hidden;
   }
@@ -48,8 +89,8 @@ body{
   margin: 0px auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-top: 1px #00c6db dashed;
-  border-bottom: 1px #00c6db dashed;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
 
 
 }
@@ -108,7 +149,7 @@ body{
 }
 
 #github_connect {
-    background-image: url("twitter2.png");
+    background-image: url("doc.png");
     background-size: 65% 65%;
     background-color: #55acee;
 }
@@ -293,6 +334,15 @@ background-image: url('uwaterloo.png');
   
 }
 
+#fbsection12 {
+  /*background-image: url('bookstest.jpg');*/
+ /* background-image: url('3.png');*/
+   background-image: url('mac_microsoft.png');
+  background-color: #ffffff;
+  margin: auto;
+  
+}
+
 
 .info p{
   font-size: 20px;
@@ -365,9 +415,9 @@ text-decoration: none;
 }
 
 .main_header{
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100vw;
-  background-image: url('site3.jpg');
+  background-image: url('https://farm8.staticflickr.com/7611/26844521606_a37a0408b2_k.jpg');
   opacity: 0.8;
   filter: alpha(opacity=40);
   text-align: center;
@@ -378,18 +428,37 @@ text-decoration: none;
   display:block;
 }
 
+/*.main_header{
+  
+height: 960px;
+width: 100%;
+background-color: red;
+background-image: url('https://farm8.staticflickr.com/7611/26844521606_a37a0408b2_k.jpg');
+opacity: 0.8;
+  filter: alpha(opacity=40);
+  text-align: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display:block;
+ 
+}*/
+
 
 .splash-wrapper {
   display: block;
-  margin: 0 auto;
-  padding: 20px 0px;
+  margin: 0 0;
+  /*padding: 20px 0px;*/
   width: 500px;
-  position: absolute;
+  height: 500px
+  
   text-align: center;
-  top: -20px;
-  left: 65%;
-  margin-left: -250px;
-  margin-top: 250px;
+  padding-top: 15%;
+  padding-bottom: 25%;
+
+  margin-left: 50%;
+  /*margin-top: 250px;*/
 }
 
 .splash-wrapper h2 {

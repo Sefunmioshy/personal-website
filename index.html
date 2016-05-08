@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="style.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="jquery-ui-effect.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  
 </head>
@@ -15,7 +16,17 @@
     
  <!--<p>Real Code</p>-->
 
-<div class="main_header">
+ <div id="nav_bar">
+    <ul>
+      <li id="home_link"><a >Home</a></li>
+      <li id="about_link"><a >Work</a></li>
+      <li id="experience_link"><a >School</a></li>
+      <li id="hobbies_link"><a >Photography</a></li>
+      <li id="connect_link"><a >Connect</a></li>
+    </ul>
+  </div>
+
+<div class="main_header" id="first">
           
         <div class="splash-wrapper">
           <h2> Hi, i'm <span style="font-weight: bold">Sefunmi Osinaike</span> and welcome to my world.</h2>
@@ -28,13 +39,36 @@
 
           <a target="_blank" href="mailto:omosinai@uwaterloo.ca">Let's Have Coffee  </a>
         </div>
+
+        <img id="proceed" src="down.png" />
        
 </div>
 
 <!-- <div class="projects"> -->
-<div id="cbp-fbscroller" class="cbp-fbscroller">
+<div id="second" id="cbp-fbscroller" class="cbp-fbscroller" >
           <h1 class="spaces middle" style="font-weight: bold">Projects and Work Experience Timeline.</h1>
-          <section id="fbsection1">
+  
+<section id="fbsection12">
+     <div class="vcenter info container">
+            <div class=" row">
+              <div class="col-md-6">
+                <h2>Microsoft Corporation</h2>
+                <h3>Program Manager, <br> Smart Connected Peripherals Team.</h3> <h3 class="duration2">January 2016 - April 2016</h3>
+                <ul>
+                  <li>Created design and functional requirements for AllJoyn Internet of Things enabled universal application</li>
+                  <li>Integrated voice recognition by utilizing Cortana to enhance interaction with application</li>
+                  <li>Designed high fidelity mockups to illustrate UI and UX of application</li>
+                  <li>Managed execution of vision with designers and developers with agile based approach</li>
+                  <li>Created long term roadmap for successive development sprints of new features</li>
+                </ul> 
+              </div>
+              <!-- <div class="middle col-md-6"><img src="pave.png" ></div> -->
+            </div>
+    </div>
+  </section>
+
+
+  <section id="fbsection1">
      <div class="vcenter info container">
             <div class=" row">
               <div class="col-md-6">
@@ -140,18 +174,41 @@
     
  <!--   <div school stuff start> --> 
 
-<div id="cbp-fbscroller2" class=" cbp-fbscroller2">
-          <h1 class="spaces middle" style="font-weight: bold">School Activities.</h1>
-          <section id="fbsection6">
+<div id="third" id="cbp-fbscroller2" class=" cbp-fbscroller2">
+  <h1 class="spaces middle" style="font-weight: bold">School Activities.</h1>
+
+
+<section id="fbsection6">
+     <div class="lspace vcenter info container">
+            <div class=" row">
+              <div class="middle col-md-7"><img src="space.png" ></div>
+              <div class="col-md-5">
+                <img src="PVC-logo.png">
+                <h3>President</h3> <h3 class="duration2">April 2016 - Present</h3>
+                <ul>
+                  <li>Organizing a Google sponsored product focused Hack-a-thon this summer</li>
+                  <li>Orginised workshop events to continually educate students on how to suceed at the PM role </li>
+                  <li>Accelerated growth of the club on campus and increased student engagement at events</li>
+                  <li>Empowering the fellows group initiative to consult with companies to give feedback on products </li>
+                </ul>
+                
+              </div>
+              <!-- <div class="middle col-md-6"><img src="pave.png" ></div> -->
+            </div>
+    </div>
+  </section>
+
+  <section id="fbsection6">
      <div class="lspace vcenter info container">
             <div class=" row">
               <div class="middle col-md-7"><img src="space.png" ></div>
               <div class="col-md-5">
                 <img src="conrad.png">
-                <h3>Enterprise Co-op</h3> <h3 class="duration2">May 2015 - Present</h3>
+                <h3>Enterprise Co-op</h3> <h3 class="duration2">May 2015 - August 2015</h3>
                 <ul>
                   <li>E-Lauch pitch award winner for $5 000 spring 2015</li>
                   <li>Product showcase winner for $1 000 spring 2015 </li>
+                  <li>Co-op of the year nomination</li>
                   <li>Regular invited speaker on entrepreneurial impact</li>
                   <li>Active member in start-up eco-system</li>
                 </ul>
@@ -245,7 +302,7 @@
 
 
 
-  <div class="photography">
+  <div id="fourth" class="photography">
   <h1 style="font-weight: bold">Photography</h1>
   <div class="container">
    <div class="row">
@@ -324,6 +381,8 @@
         <div class="item">
          <!--  <img src="777.jpg" alt="Flower4" width="460" height="345"> -->
           <img src="https://farm1.staticflickr.com/652/21853929811_759cda9e67_k.jpg" width="2048" height="1365" alt="33">
+
+
         </div>
       </div>
 
@@ -341,7 +400,7 @@
 </div>
 
 
- <div class="contact">
+ <div id="fifth" class="contact">
       <div class="container">
 
 
@@ -472,8 +531,8 @@
             </div>
 
             <div class="col-md-3">
-              <a target="_blank" href="https://www.twitter.com/sefunmioshy"> 
-                <div class="connect_div" id="github_connect" title="Follow me on twitter" style="bottom: 0px;"> </div>
+              <a target="_blank" href="4AResumePM.pdf"> 
+                <div class="connect_div" id="github_connect" title="Check out my Resume" style="bottom: 0px;"> </div>
               </a>
             </div>
 
@@ -508,7 +567,7 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <p class="lead">"The true meaning of success is fully understood when one attains freedom in life"</p>
-                    <p>- Sefunmi Osinaike</p>
+                   
                   </div>
                   <div class="col-lg-4 col-lg-offset-4">
                       <h4>Created by Sefunmi Osinaike - 2015 </h4>
