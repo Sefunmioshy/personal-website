@@ -344,6 +344,24 @@ background-image: url('uwaterloo.png');
 }
 
 
+#fbsection13 {
+  /*background-image: url('bookstest.jpg');*/
+ /* background-image: url('3.png');*/
+   background-image: url('mac_swipe.png');
+  background-color: #ffffff;
+  margin: auto;
+  
+}
+
+#fbsection14 {
+  /*background-image: url('bookstest.jpg');*/
+ /* background-image: url('3.png');*/
+   background-image: url('mac_settle_up2.png');
+  background-color: #ffffff;
+  margin: auto;
+  
+}
+
 .info p{
   font-size: 20px;
 }
@@ -455,7 +473,7 @@ opacity: 0.8;
   
   text-align: center;
   padding-top: 15%;
-  padding-bottom: 25%;
+  padding-bottom: 15%;
 
   margin-left: 50%;
   /*margin-top: 250px;*/
